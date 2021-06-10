@@ -1,1 +1,44 @@
-/* No CSS */
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url(/dist/css/bg.jpg) no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.301);
+  background-blend-mode: darken;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  height: 500px;
+}
+
+.container form #searchTerm {
+  width: 50%;
+  border: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  padding: .8rem 1rem;
+}
+
+.container form button {
+  font-family: "Montserrat", sans-serif;
+  padding: .8rem 2rem;
+  border: none;
+  border-radius: 3px;
+  margin-left: .8rem;
+  color: #E0E3E3;
+  background: #28413E;
+}
+
+.container .display {
+  border: 1px solid black;
+}
