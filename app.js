@@ -16,6 +16,5 @@ form.addEventListener('submit',async (e) => {
     desc.innerText = description;
     const temperature = res.data.main.temp;
     temp.innerHTML = `${temperature}°C`;
-    console.log(res.data);
 })
 

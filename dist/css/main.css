@@ -16,13 +16,22 @@ body {
   justify-content: center;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   width: 60%;
   height: 500px;
 }
 
+.container form {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .container form #searchTerm {
-  width: 50%;
+  width: 70%;
   border: none;
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -40,5 +49,26 @@ body {
 }
 
 .container .display {
-  border: 1px solid black;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .display .temp-text {
+  font-size: 5rem;
+  font-weight: 500;
+  color: #E0E3E3;
+}
+
+.container .display ul {
+  width: 50%;
+}
+
+.container .display ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .display ul li .desc {
+  color: #fff;
 }

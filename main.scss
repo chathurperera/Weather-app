@@ -7,10 +7,12 @@
     // border: 1px solid black;
     
     form{
-        // border: 1px solid black;
+        width:70%;
+        margin: 0 auto;
+
 
         #searchTerm{
-            width: 50%;
+            width: 70%;
             border: none;
             color: black;
             font-family: $ff-mont;
@@ -27,7 +29,24 @@
         }
     }
     .display{
-        border: 1px solid black;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        .temp-text{
+            font-size: 5rem;
+            font-weight: 500;
+            color: #E0E3E3;
+        }
+        ul{
+            width: 50%;
+            li{
+                display: flex;
+                justify-content: space-between;
+                .desc{
+                    color: #fff;
+                }
+            }
+        }
     }
 
 }
